@@ -1,0 +1,254 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+h2 {
+  font-size: 5rem;
+  font-weight: bold;
+  padding: 3rem;
+}
+h3{
+  font-size: 20px;
+}
+.coming-soon {
+  background: #fff;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.countdown {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin: 10px 10px;
+}
+
+.day,
+.hour,
+.minute,
+.second {
+  font-size: 25px;
+}
+
+.container-day{
+  display: flex;
+}
+.container-day h3{
+  font-size: 35px;
+}
+
+.container-hour{
+  display: flex;
+}
+.container-hour h3{
+  font-size: 35px;
+}
+
+.container-minute{
+  display: flex;
+}
+.container-minute h3{
+  font-size: 35px;
+}
+
+.container-second{
+  display: flex;
+}
+.container-second h3{
+  font-size: 35px;
+}
+.waiting {
+  height: 50vh;
+}
+.countdown i{
+  font-size: 35px;
+  padding-left: 20px;
+  color: #37EB1B;
+}
+.main img{
+  width: 105%;
+}
+.text h1{
+  text-align: center;
+  font-size: 70px;
+  padding: 10px;
+  color: green;
+}
+.text-in{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text1 p{
+  font-size: 40px;
+  width: 400px;
+  margin-left: 25%;
+}
+
+span{
+  background: rgba(255, 237, 237, 0.7);
+  color: #FF3434;
+  font-weight: 500;
+  padding: 5px;
+}
+
+.text2{
+  font-size: 40px;
+  width: 400px;
+}
+
+.bottom{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.button1 h2{
+  background: rgba(186, 0, 150, 1);
+  font-size: 50px;
+  width: 400px;
+  margin: 20px 0 0 65px;
+  padding: 20px 0 20px 30%;
+  border-radius: 8px;
+  color: #fff;
+}
+
+.button2 h2{
+  background: #4EF5FF;
+  font-size: 40px;
+  width: 350px;
+  margin: 20px 45px 0 65px;
+  padding: 20px 0 20px 15%;
+  border-radius: 8px;
+  color: #fff;
+}
+.but{
+  display: flex;
+}
+
+.but i{
+  position : absolute;
+  font-size: 50px;
+  color: #fff;
+  padding: 40px 0 0 40%;
+}
+.button3 h2{
+  background: #FFBA3F;
+  font-size: 50px;
+  width: 400px;
+  margin: 20px 0 0 65px;
+  padding: 20px 0 20px 30%;
+  border-radius: 8px;
+  color: #fff;
+}
+
+.button4 h2{
+  background: #fff;
+  font-size: 50px;
+  width: 350px;
+  margin: 20px 45px 0 65px;
+  padding: 20px 0 20px 15%;
+  border-radius: 8px;
+  color: #020202;
+  border: .5px solid #020202;
+}
+
+.max{
+  display: flex;
+}
+
+.max i{
+  position: absolute;
+  display: block;
+  font-size: 50px;
+  color: #020202;
+  padding: 43px 0 0 35%;
+}
+.search-bar{
+  margin: 10% 6%;
+ width: 98%;
+ 
+}
+
+.search-bar input{
+  width: 70%;
+  height: 80px;
+  padding: 10px 15px;
+  font-size: 35px;
+  border: 2px solid #9A9A9A;
+  border-radius: 6px;
+}
+
+.search-bar button{
+  position: absolute;
+  width: 200px;
+  height: 80px;
+  padding: 10px 15px;
+  font-size: 35px;
+  border: 2px solid #9A9A9A;
+  border-radius: 6px;
+  border-start-start-radius: 0;
+  border-end-start-radius: 0;
+  margin: 0 0 -10px -6px;
+  color: #fff;
+  background: #B505CF;
+  font-weight: 900;
+  border-left: none ;
+}
+
+h4{
+  text-align: center;
+  font-size: 35px;
+}
+.available{
+  width: 98%;
+  border: 1px solid #B505CF;
+  margin: 50px 0 0 35px;
+}
+.available h1{
+  text-align: center;
+  color: #fff;
+  font-size: 35px;
+  padding-top: 25px;
+}
+.h1{
+  height: 90px;
+  background: #7B1F89 ;
+}
+
+.ava1{
+  display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.credit{
+  width: 400px;
+}
+
+.credit h1{
+  text-align: center;
+  color: #020202;
+}
+
+.exp{
+  width: 400px;
+}
+
+.exp h1{
+  text-align: center;
+  color: #020202;
+}
